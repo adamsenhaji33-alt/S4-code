@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: #16375f;
+    background: #ffffff;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: min(1100px, calc(100% - 40px));
+    margin: auto;
+}
+
+.site-header {
+    border-bottom: 1px solid #e8eef6;
+    background: white;
+}
+
+.navbar-container {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.brand {
+    color: #111827;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.brand span {
+    color: #1976e9;
+}
+
+.nav-menu,
+.footer-links {
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu {
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #1976e9;
+}
+
+.nav-actions,
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 17px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.button-primary {
+    background: #1976e9;
+    color: white;
+}
+
+.button-login {
+    color: #16375f;
+}
+
+.button-light {
+    background: white;
+    color: #1976e9;
+}
+
+.hero-container {
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 55% 40px 70px;
+    border-radius: 0 0 12px 12px;
+    color: white;
+    background-image: linear-gradient(90deg, rgba(11, 48, 85, .76) 0%, rgba(11, 48, 85, .45) 43%, rgba(11, 48, 85, .05) 75%), url('../img/casablanca.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+.hero-container h1 {
+    margin: 0 0 15px;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.hero-container h1 span {
+    color: #b8ddff;
+}
+
+.hero-container p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.hero-actions {
+    margin-top: 25px;
+}
+
+.categories {
+    background: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px 0;
+}
+
+.category-card {
+    width: 105px;
+    padding: 15px 8px;
+    border: 1px solid #edf1f6;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.category-card img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 8px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #edf6ff;
+}
+
+.projects-section {
+    padding: 35px 0 50px;
+    background: #f4f8fd;
+}
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.projects-header h2 {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.projects-header p {
+    margin: 8px 0 0;
+    color: #60728a;
+    font-size: 13px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 22px;
+}
+
+.project-card {
+    padding: 22px;
+    border: 1px solid #e4ecf5;
+    border-radius: 10px;
+    background: white;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    margin-bottom: 0;
+    color: #60728a;
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.site-footer {
+    padding: 22px 0;
+    background: #0d477f;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-content h3,
+.footer-content p {
+    margin: 0;
+}
+
+.footer-links {
+    margin: 0;
+    gap: 18px;
+    font-size: 12px;
+}
+
+.footer-content p {
+    font-size: 11px;
+}
