@@ -36,12 +36,14 @@
     </section>
     <section class="filtre-categories">
         <h2>my expérience</h2>
+
         <div class="liste-filtres">
-            <a href="#" class="worke">JS</a>
-            <a href="#" class="worke">HTml:5</a>
-            <a href="#" class="worke">CSS</a>
-            <a href="#" class="worke">Dsine</a>
+            <?php foreach ($colors as $color): ?>
+                <a href="#"
+                    class="worke <?php if ($color['color'] == "blue"): ?>blue <?php else: ?>rose <?php endif; ?>"><?= $color['contente'] ?></a>
+            <?php endforeach; ?>
         </div>
+
     </section>
     <section id="articles" class="section-articles">
         <div class="conteneur-articles">
@@ -56,6 +58,7 @@
 
                 <?php foreach ($projes as $projes): ?>
                     <div class="carte-article">
+                        <img src="" alt="">
                         <h3><?= $projes['titre'] ?></h3>
                         <p><?= $projes['contenu'] ?></p>
                     </div>

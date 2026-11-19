@@ -15,6 +15,24 @@ $projes = [
         'contenu' => 'Le projet City Guide est une application conçue pour faciliter la découverte d une ville et de ses différents services. Elle permet aux utilisateurs de trouver facilement des lieux touristiques, des restaurants, des hôtels et d autres endroits importants. L objectif principal est d offrir une expérience simple, pratique et agréable aux visiteurs et aux habitants, tout en facilitant leur orientation et leur découverte de la ville.'
     ]
 ];
+$colors = [
+    [
+        "color"=>"rose",
+        'contente'=>"js",
+    ],
+    [
+        "color"=>"blue",
+        'contente'=>"html:5",
+    ],
+    [
+        "color"=>"rose",
+        'contente'=>"css",
+    ],    
+    [
+        "color"=>"blue",
+        'contente'=>"Dsine",
+    ]
+];
 
 
 
