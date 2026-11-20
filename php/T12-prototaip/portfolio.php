@@ -58,7 +58,6 @@
 
                 <?php foreach ($projes as $projes): ?>
                     <div class="carte-article">
-                        <img src="" alt="">
                         <h3><?= $projes['titre'] ?></h3>
                         <p><?= $projes['contenu'] ?></p>
                     </div>
