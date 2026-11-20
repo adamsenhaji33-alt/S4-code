@@ -56,7 +56,7 @@
             </div>
             <div class="grille-articles">
 
-                <?php foreach ($projes as $projes): ?>
+                <?php foreach ($projes as $proje): ?>
                     <div class="carte-article">
                         <h3><?= $projes['titre'] ?></h3>
                         <p><?= $projes['contenu'] ?></p>
